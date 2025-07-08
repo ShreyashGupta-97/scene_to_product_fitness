@@ -1,4 +1,4 @@
-# scene_to_product_fitness
+# Scene-to-Product Matching Engine
 To build an AI-powered system that matches products to a scene image, we’ll design a solution that analyzes the scene, identifies its context (eg., a gaming setup), and recommends products from a catalog that naturally fit the scene. The system will use a combination of computer vision and semantic matching, with considerations for scalable deployment. Below is a detailed implementation, including a minimal demo and deployment strategy.
 
 # Solution Approach
