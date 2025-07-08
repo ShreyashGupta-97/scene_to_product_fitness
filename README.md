@@ -27,5 +27,5 @@ Store these features in a vector database (eg. FAISS) for efficient similarity s
 
 # Way Forward
 1. Descrition of the scene as input (eg. "Gaming setup" or "Living room") could enhance model's performance by making it context rich and mapping the scene's embedding more appropriately with the products that could fit the scene
-2. The adaptibility and performance of the engine could be improved further if we could create a dataset of scenes with a few positive and negative products that could fit the scene. If such a dataset could be obtained, the features arising from the models would understand the exact context of fitness of a product in a given scene
+2. The adaptibility and performance of the engine could be improved further if we could create a dataset of scenes with a few positive and negative products that could fit the scene. If such a dataset could be obtained, the features arising from the models would understand the exact context of fitness of a product in a given scene. In this case, a self-attention mechanism can also be introduced to understand the important segments of a scene
 3. Further, embeddings can be improved by using a larger model
