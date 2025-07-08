@@ -3,7 +3,7 @@ To build an AI-powered system that matches products to a scene image, we’ll de
 
 # Solution Approach
 1. Product Catalog Processing: Use a pre-trained vision model (eg. CLIP from OpenAI) to extract features for product descriptions and images. CLIP can encode both images and text, allowing us to understand the product holistically. 
-Store these features in a vector database (eg., FAISS) for efficient similarity search later.
+Store these features in a vector database (eg. FAISS) for efficient similarity search later.
 2. Scene Analysis: Extract semantic features from the input scene image using CLIP to understand the scene's context (eg. Gaming Setup)
 3. Matching: Compute similarity scores between the scene’s features and product features to rank products by relevance. 
 4. Output: The script outputs a JSON object with the top-k products, ranked by similarity score. In the demo, the output shows top 3 products as k is set to 3. This can be changed by the user in the main function.
